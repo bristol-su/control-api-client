@@ -10,7 +10,7 @@
     ],
     "require": {
         "php": "^7.2",
-        "bristol-su/api-client-toolkit": "dev-initial-setup"
+        "bristol-su/api-client-toolkit": "@dev"
     },
     "require-dev": {},
     "autoload": {
