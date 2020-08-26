@@ -10,7 +10,7 @@
     ],
     "require": {
         "php": "^7.2",
-        "bristol-su/api-client-toolkit": "@dev"
+        "bristol-su/api-client-toolkit": "dev-develop"
     },
     "require-dev": {},
     "autoload": {
@@ -19,11 +19,5 @@
         },
         "classmap": []
     },
-    "autoload-dev": {},
-    "repositories": [
-    	{
-    	    "type": "path",
-    	    "url": "./../../api-client-toolkit"
-    	}
-    ]
+    "autoload-dev": {}
 }

@@ -4,19 +4,26 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "53825b21038767780e5b3e7c2846ca1d",
+    "content-hash": "a29e80de889f133732bc18376162347a",
     "packages": [
         {
             "name": "bristol-su/api-client-toolkit",
-            "version": "dev-initial-setup",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bristol-su/api-client-toolkit.git",
+                "reference": "aac408ab06bb47ee08d187a258df371e900857d6"
+            },
             "dist": {
-                "type": "path",
-                "url": "./../../api-client-toolkit",
-                "reference": "bdab960b01fa07c643b7fa0756eaefe6fc9d0887"
+                "type": "zip",
+                "url": "https://api.github.com/repos/bristol-su/api-client-toolkit/zipball/aac408ab06bb47ee08d187a258df371e900857d6",
+                "reference": "aac408ab06bb47ee08d187a258df371e900857d6",
+                "shasum": ""
             },
             "require": {
                 "php": "^7.2",
-                "psr/http-client": "^1.0"
+                "psr/http-client": "^1.0",
+                "psr/simple-cache": "^1.0"
             },
             "type": "library",
             "autoload": {
@@ -25,6 +32,7 @@
                 },
                 "classmap": []
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -35,9 +43,7 @@
                 }
             ],
             "description": "A set of interfaces and tools for adding to the PHP Api Client for the portal",
-            "transport-options": {
-                "relative": true
-            }
+            "time": "2020-08-26T16:07:32+00:00"
         },
         {
             "name": "psr/http-client",
@@ -137,6 +143,54 @@
                 "response"
             ],
             "time": "2016-08-06T14:39:51+00:00"
+        },
+        {
+            "name": "psr/simple-cache",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/simple-cache.git",
+                "reference": "408d5eafb83c57f6365a3ca330ff23aa4a5fa39b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/simple-cache/zipball/408d5eafb83c57f6365a3ca330ff23aa4a5fa39b",
+                "reference": "408d5eafb83c57f6365a3ca330ff23aa4a5fa39b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\SimpleCache\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interfaces for simple caching",
+            "keywords": [
+                "cache",
+                "caching",
+                "psr",
+                "psr-16",
+                "simple-cache"
+            ],
+            "time": "2017-10-23T01:57:42+00:00"
         }
     ],
     "packages-dev": [],
